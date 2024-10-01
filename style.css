@@ -8,6 +8,7 @@ header {
     width: 15%;
     height: 15%;
     display: flex;
+    align-items: center;
 }
 .titulo {
     text-align: center;
