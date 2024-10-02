@@ -5,8 +5,8 @@ header {
     display: flex;
 }
 .video  {
-    width: 15%;
-    height: 15%;
+    width: 35%;
+    height: 35%;
     display: flex;
     align-items: center;
 }
