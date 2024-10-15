@@ -45,3 +45,7 @@ body{
 .cards {
     margin-left: 24%;
 }
+.cards2 {
+    margin-left: 27%;
+    justify-content: space-around;
+}
