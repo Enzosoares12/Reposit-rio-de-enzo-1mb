@@ -44,8 +44,10 @@ body{
 }
 .cards {
     margin-left: 24%;
+    display: flex;
 }
 .cards2 {
     margin-left: 69%;
     justify-content: space-around;
+    margin-bottom: 25%;
 }
