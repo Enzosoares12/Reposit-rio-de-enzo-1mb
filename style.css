@@ -50,4 +50,5 @@ body{
     margin-left: 69%;
     justify-content: space-around;
     margin-bottom: 25%;
+    display: flex;
 }
