@@ -12,10 +12,11 @@ header {
 .titulo {
     margin-left: 2%;
     margin-top: 2%;
+    color: #fff;
 }
 
 body{
-    background: rgb(120,120,120);
+    background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(120,120,120,1) 0%, rgba(161,161,180,1) 47%, rgba(131,131,131,1) 100%);
 }
 .para {
