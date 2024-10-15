@@ -24,9 +24,15 @@ body{
  color: #fff;
  font-size: 165%;
  margin: 2%;
+ text-align: center;
 }
 .card1 {
     margin-left: 33%;
     width: 35%;
     height: 55%;
+}
+.logo {
+    margin-left: 1%;
+    padding: 0px;
+    background-color: #000;
 }
