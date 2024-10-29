@@ -49,16 +49,23 @@ body{
 .cards2 {
     margin-left: 69%;
     justify-content: space-around;
-    margin-bottom: 35%;
+    margin-bottom: 25%;
     display: flex;
 }
+/* Estilização geral do main */
+main {
+    padding: 20px;
+}
+
+/* Estilo para a seção dos cards */
 .cards {
-    display: flex;
-    justify-content: space-around; /* Espaçamento entre os cards */
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-around; /* Espaço ao redor dos cards */
     flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha em telas menores */
     margin: 20px 0; /* Margem em cima e embaixo */
 }
 
+/* Estilo para cada card */
 .card {
     display: flex; /* Habilita flexbox dentro do card */
     flex-direction: column; /* Organiza o conteúdo em coluna */
@@ -71,10 +78,26 @@ body{
     transition: transform 0.2s; /* Transição suave para o efeito hover */
 }
 
+/* Faz o corpo do card crescer para preencher o espaço restante */
 .card-body {
-    flex-grow: 1; /* Faz o corpo do card crescer para preencher o espaço restante */
-    display: flex;
+    flex-grow: 1; /* Faz o corpo do card crescer para ocupar o espaço disponível */
+    display: flex; /* Habilita flexbox para o corpo do card */
     flex-direction: column; /* Organiza o conteúdo do card em coluna */
+    padding: 15px; /* Espaçamento interno */
 }
 
-/* Restante do CSS permanece o mesmo */
+/* Estilo para a imagem do card */
+.card-img-top {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o título do card */
+.card-title {
+    font-size: 1.25rem; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Margem abaixo do título */
+}
+
+/* Estilo para o texto do card */
+.ca
+
