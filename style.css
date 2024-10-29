@@ -31,9 +31,13 @@ body{
     justify-content: space-around; /* Espaço ao redor dos cards */
     align-items: stretch; /* Garante que todos os cards tenham a mesma altura */
     margin: 20px; /* Margem ao redor da seção */
+    width: 25%;
+    height: 25%;
 }
 
 .card {
     margin: 10px; /* Margem entre os cards */
     flex: 1; /* Permite que os cards cresçam igualmente */
+    width: 25%;
+    height: 25%;
 }
