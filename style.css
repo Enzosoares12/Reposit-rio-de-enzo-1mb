@@ -44,28 +44,3 @@ body{
 .card1 {
     align-items: center;
 }
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
-}
-/* .abstract {
-  background-color: #8ac8d5;
-  background-image:
-  radial-gradient(rgba(76,139,152,1), rgba(138,201,214,.05) 200px, transparent 600px),
-  radial-gradient(rgba(76,139,152,1), rgba(255,255,255,.1) 300px, transparent 500px),
-  radial-gradient(rgba(76,139,152,1), rgba(138,201,214,.1) 1000px, transparent 1000px);
-  background-size: 1000px 800px, 700px 800px, 700px 800px; 
-  background-position: 0 -200px, 300px -100px, 700px -200px;
-  height: 800px;
- animation: animatedBackground 4s linear infinite;
-} */
-.abstract {
-  background-color: #151515;
-  background-image:
-    radial-gradient(rgba(21, 21, 21, 1), rgba(255, 255, 255, 0.5) 0, transparent 700px),
-    radial-gradient(rgba(21, 21, 21, 1), rgba(255, 255, 255, 0.1) 0, transparent 200px);
-  background-size: 1500px 1000px, 500px 200px;
-  background-position: 180% 155%, 60% 100%;
-  background-repeat: no-repeat;
-  height: 686px;
-}
