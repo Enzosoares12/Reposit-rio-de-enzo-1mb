@@ -1,8 +1,15 @@
-body {
-  font-family: Arial, sans-serif;
+/* Resetando margens e padding */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   background-color: #f4f4f4;
+  color: #333;
 }
 
 header {
@@ -13,6 +20,11 @@ header {
 
 header h1 {
   text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
 }
 
 nav ul {
@@ -28,3 +40,47 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-gallery img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
