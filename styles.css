@@ -1,5 +1,5 @@
 
-/* Resetando margens e padding */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;color: #333;
+  background-color: #5c5c5c;color: #333;
 }
 
 header {
@@ -67,7 +67,7 @@ h2 {
     margin-bottom: 15px;
     color: #333;
     font-size: 1.8em;
-    border-bottom: 2px solid #ffd700; /* Dourado */
+    border-bottom: 2px solid #ff0000; /* Dourado */
     padding-bottom: 10px;
 }
 
