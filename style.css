@@ -1,3 +1,4 @@
+
 /* Resetando margens e padding */
 * {
   margin: 0;
@@ -6,81 +7,108 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #f4f4f4;color: #333;
 }
 
 header {
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+    padding: 20px 0;
 }
 
 header h1 {
-  text-align: center;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
 nav {
-  text-align: center;
-  margin-top: 10px;
+    text-align: center;
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
-  display: inline;
-  margin: 0 15px;
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+    color: #ffd700; /* Dourado */
 }
 
 main {
-  padding: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section {
-  margin-bottom: 20px;
-  background: #fff;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.8em;
+    border-bottom: 2px solid #ffd700; /* Dourado */
+    padding-bottom: 10px;
 }
 
 .image-gallery {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .image-gallery img {
-  max-width: 30%;
-  height: auto;
-  border-radius: 5px;
-  margin: 5px;
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
 }
 
 footer {
-  text-align: center;
-  padding: 10px 0;
-  background: #333;
-  color: #fff;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .image-gallery img {
+        max-width: 100%;
+        margin: 10px 0;
+    }
 }
