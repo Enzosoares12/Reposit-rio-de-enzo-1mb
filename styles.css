@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Dourado */
+    color: #851f00; /* Dourado */
 }
 
 main {
@@ -99,8 +99,6 @@ footer {
     width: 100%;
     margin-top: 40px;
 }
-
-/* Responsividade */
 @media (max-width: 768px) {
     nav ul li {
         display: block;
