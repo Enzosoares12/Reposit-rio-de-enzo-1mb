@@ -113,3 +113,9 @@ footer {
 .pPoze {
     color: #333;
 }
+
+.Videocbl {
+    align-items: center;
+    border-radius: 15%;
+    
+}
